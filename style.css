@@ -1,0 +1,201 @@
+/*------------LE FOND--------------*/
+body {
+	background-color: white;
+}
+/*----------POLICE------------------*/
+p, h1, h2, h3, ul, li
+{
+    font-family: 'Roboto Condensed','Mansalva', cursive; /*Courier New, Verdana, "Arial Black", sans-serif;*/
+}
+/*------------LES TITRES--------------*/
+h1 {
+	color:gray;
+	font-size: 50px;
+	text-align: center;
+}
+
+h3 {
+	color : rgba(0,0,0,0.3);
+	font-size: 20px;
+	text-align: center;
+}
+.titre_Expérience_et_Stages:hover ,.titre_Formation:hover ,.titre_Projets_Conduits:hover ,.titre_Centres_Dintérêt_Et_Autres_Informations:hover {
+	color: black;
+}
+.titre_Expérience_et_Stages ,.titre_Formation ,.titre_Projets_Conduits ,.titre_Centres_Dintérêt_Et_Autres_Informations
+{   
+    color: white;
+	text-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	background-image: url(images/gris_sideral.jpg);
+	border: 2px solid rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center ;
+}
+/*------------LA PHOTO--------------*/
+img {
+	width: 180px;
+	border: 2px solid rgba(0,0,0,0.1);
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 50%;
+}
+
+.photo2profil:hover {
+	width: 275px;
+	transition: 1s;
+}
+.imagefixe{
+	/*position: sticky;*/
+	top: 10px;
+	text-align: center;
+}
+.container{
+	width: 90%;
+	margin: 10px auto;
+}
+/*------------LE BOUTON--------------*/
+
+.contact{
+    text-align: center;
+    color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background-color: white);
+    font-size: 17px;	
+}
+.contact:hover{
+	transition: 1s;
+	color: black;
+}
+.center_contact{
+	text-align: center;
+}
+/*----------------Reseaux sociaux--------*/
+/*.reseaux_sociaux{
+	text-align: center;
+}*/
+.image_facebook{
+	width: 35px;
+	padding: 10px; 
+	margin-left: 36.4%
+}
+.image_insta{
+	width: 40px;
+	padding: 7px;
+	margin-left: 6%
+}
+.image_linkedIn{
+	width: 45px;
+	padding: 7px;
+	margin-left: 5%;
+}
+
+
+/*-----------------mise en forme de la div EXP*/
+.Div_Expérience
+{
+	display: block;
+	width : 80%;
+	/*height: 370px;*/
+	background-color: white;
+	background-image: url(images/PRO.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*background-size: 30%;*/
+	background-size: 250px 250px;
+	background-position: right 5% bottom 40%;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3)
+	/*overflow: */
+}
+.ul_exp_position{
+	text-align: justify;
+	/*border: 5px solid green;*/
+	text-overflow: clip;
+	width: 60%;
+	padding: 0px 50px 0px 0;
+	overflow-wrap: break-word;
+}
+/*---------------------------------------mise en forme de la div FORMATION---------------------------*/
+.Div_Formation{
+	display: block;
+	width : 80%;
+	/*height: 370px;*/
+	background-color: white;
+	background-image: url(images/turku.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*background-size: 30%;*/
+	background-size: 217px;
+	background-position: right 5% bottom 37%;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	/*overflow: */
+}
+.ul_formation_position{
+	text-align: justify;
+	/*border: 5px solid green;*/
+	text-overflow: clip;
+	width: 61%;
+	overflow-wrap: break-word;
+}
+/*--------------------------------------mise ne forme de la div PROJETS CONDUITS---------------------*/
+.Div_Projet{
+	display: block;
+	width : 80%;
+	/*height: 370px;*/
+	background-color: white;
+	background-image: url(images/femmes.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*background-size: 30%;*/
+	background-size: 150px;
+	background-position: right 11% bottom 25%;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	/*overflow: */
+}
+.ul_projets_position{
+	text-align: justify;
+	/*border: 5px solid green;*/
+	text-overflow: clip;
+	width: 60%;
+	overflow-wrap: break-word;
+}
+/*------------------mise en forme de la div CENTRES D'INTERETS ET AUTRES INFORMATIONS*/
+.Div_Autres {
+	display: block;
+	width : 80%;
+	/*height: 370px;*/
+	background-color: white;
+	background-image: url(images/volley.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*background-size: 30%;*/
+	background-size: 200px;
+	background-position: right 8% bottom 35%;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3)
+	/*overflow: */
+}
+.text_autresinfos_position{
+	text-align: justify;
+	/*border: 5px solid green;*/
+	text-overflow: clip;
+	width: 60%;
+	overflow-wrap: break-word;
+}
+
+
+/*.vent {
+	display: block;
+	flex-wrap: wrap; 
+	width : 30%;
+	height: 2000px  ;
+	background-color: red;
+	margin-right: 500px;
+	margin-bottom: 100px;
+}
+*/
